@@ -1,0 +1,24 @@
+.place__image {
+  max-width: calc(100vw*(460/1280));
+  grid-row: 2/3;
+  grid-column: 1;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px){
+  .place__image {
+    max-width: calc(100vw*(440/1024));
+  }  
+}
+
+@media screen and (max-width: 768px){
+  .place__image {
+    max-width: calc(100vw*(340/768));
+  }  
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    max-width: 320px;
+  }  
+}

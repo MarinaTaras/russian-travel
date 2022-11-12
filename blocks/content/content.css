@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 984px;
+  margin: 0 auto;
+  margin-top: 56px;
+  gap: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    max-width: calc(100vw*(928/1024));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    max-width: calc(100vw*(720/768));
+    gap: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    max-width: 288px;
+    gap: 64px;
+  }
+}

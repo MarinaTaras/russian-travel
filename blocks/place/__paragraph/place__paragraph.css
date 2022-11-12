@@ -1,0 +1,27 @@
+.place__paragraph {
+  max-width: calc(100vw*(484/1280));
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px){
+  .place__paragraph {
+    max-width: calc(100vw*(456/1024));
+  }
+}
+
+@media screen and (max-width: 768px){
+  .place__paragraph {
+    max-width: calc(100vw*(352/768));
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    max-width: 288px;
+  }
+}
+

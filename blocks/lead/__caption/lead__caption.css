@@ -1,0 +1,10 @@
+.lead__caption {
+  font-size: 10px;
+  line-height: 1.4;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 8px;
+  padding: 0;
+}
+
+/*свойства не зависят от размера экрана*/
