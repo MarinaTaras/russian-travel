@@ -1,5 +1,5 @@
 .place__image {
-  max-width: calc(100vw*(460/1280));
+  max-width: 460px;
   grid-row: 2/3;
   grid-column: 1;
   object-fit: cover;

@@ -1,17 +1,17 @@
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(calc(100vw*(284/1280)), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
-  max-width: calc(100vw*(1184/1280));
+  max-width: 1184px;
   overflow: visible;
   align-self: center;
 }
 
 @media screen and (max-width: 1024px){
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(calc(100vw*(300/1024)), 1fr));
-    gap: 14px;
-    max-width: calc(100vw*(928/1024));
+    grid-template-columns: repeat(auto-fit, minmax(calc(100vw*(300/1025)), 1fr));
+    gap: calc(100vw*(14/1025));
+    max-width: calc(100vw*(928/1025));
   }
 }
 

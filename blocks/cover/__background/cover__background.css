@@ -1,7 +1,7 @@
 .cover__background {
   grid-area: 1/1;
   z-index: 1;
-  max-width: calc(100vw*(1184/1280));
+  max-width: 1184px;
   object-fit: cover;
   margin: 0;
   padding: 0;

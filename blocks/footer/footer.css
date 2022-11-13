@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  max-width: calc(100vw*(1184/1280));
+  max-width: 1184px;
   width: 100%;
   overflow: visible;
   margin: 0 auto;
@@ -24,8 +24,8 @@
 
 @media screen and (max-width: 320px) {
   .footer {
-    height: 310px;
     margin-top: 64px;
     flex-direction: column;
+    gap: 48px;
   }
 }

@@ -1,5 +1,5 @@
 .place__paragraph {
-  max-width: calc(100vw*(484/1280));
+  max-width: 484px;
   font-size: 18px;
   line-height: 1.63;
   margin: 0;
