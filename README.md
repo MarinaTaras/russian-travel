@@ -23,4 +23,7 @@
 
 
 Подготовил студент Тарасенко Марина
+
 Использованы технологии HTML, css, animation css, flex-box, методология БЭМ, GRID, подключение медиа-запросов.
+
+Сайт проекта: https://marinataras.github.io/russian-travel/index.html

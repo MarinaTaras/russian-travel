@@ -7,21 +7,21 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1200px){
   .place__image {
     max-width: calc(100vw*(440/1024));
   }  
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1020px){
   .place__image {
     max-width: calc(100vw*(340/768));
   }  
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 760px) {
   .place__image {
-    max-width: 320px;
+    max-width: 100vw;
     overflow: visible;
   }  
 }

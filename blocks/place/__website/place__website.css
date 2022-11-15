@@ -1,6 +1,5 @@
 .place__website {
   max-width: 456px;
-  /* max-height: 46px; */
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -10,19 +9,19 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1200px){
   .place__website{
     max-width: calc(100vw*(456/1024));
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1020px){
   .place__website{
     max-width: 352px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 760px) {
   .place__website{
     max-width: 288px;
     align-self: flex-start;

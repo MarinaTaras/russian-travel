@@ -9,6 +9,13 @@
   z-index: 5;
 }
 
+@media screen and (max-width: 760px) {
+  .cover__subtitle {
+    font-size: calc(14px + 4*((100vw - 320px)/(760 - 320)));
+    line-height: calc(16px + 2*((100vw - 320px)/(760 - 320)));
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     max-width: 288px;
