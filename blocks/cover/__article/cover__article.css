@@ -1,0 +1,16 @@
+.cover__article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-area: 1/1;
+  align-self: center;
+  z-index: 5;
+  gap: 32px
+}
+
+@media screen and (max-width: 320px) {
+  .cover__article {
+    gap: 16px;
+  }
+}

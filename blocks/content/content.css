@@ -11,6 +11,7 @@
 @media screen and (max-width: 1024px) {
   .content {
     max-width: calc(100vw*(928/1024));
+    margin-top: 48px;
   }
 }
 
