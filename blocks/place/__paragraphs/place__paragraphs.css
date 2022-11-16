@@ -1,11 +1,13 @@
 .place__paragraphs {
-  display: grid;
-  row-gap: 26px;
-  grid-template-rows: min-content min-content;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1020px){
   .place__paragraphs {
-    row-gap: 25px;
+    gap: 25px;
   }
 }

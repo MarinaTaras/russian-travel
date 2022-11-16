@@ -5,17 +5,18 @@
   object-fit: cover;
   padding: 0;
   margin: 0;
+  align-self: center;
 }
 
 @media screen and (max-width: 1200px){
   .place__image {
-    max-width: calc(100vw*(440/1024));
+    max-width: 440px;
   }  
 }
 
 @media screen and (max-width: 1020px){
   .place__image {
-    max-width: calc(100vw*(340/768));
+    max-width: calc(100vw*(320/768));
   }  
 }
 

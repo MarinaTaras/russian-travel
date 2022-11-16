@@ -8,17 +8,23 @@
   gap: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .content {
     max-width: calc(100vw*(928/1024));
     margin-top: 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
   .content {
     max-width: calc(100vw*(720/768));
     gap: 88px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .content {
+    max-width: calc(100vw*(288/320));
   }
 }
 
