@@ -17,13 +17,14 @@
 
 @media screen and (max-width: 1020px){
   .place__website{
-    max-width: 352px;
+    max-width: calc(100vw*(352/768))
   }
 }
 
 @media screen and (max-width: 760px) {
   .place__website{
-    max-width: 288px;
+    max-width: 100%;
     align-self: flex-start;
+    padding-left: 16px;
   }
 }
