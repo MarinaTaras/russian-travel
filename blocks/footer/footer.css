@@ -18,10 +18,18 @@
 @media screen and (max-width: 1020px){
   .footer {
     margin-top: 88px;
+    max-width: calc(100vw*(720/768));
   }
 }
 
 @media screen and (max-width: 760px) {
+  .footer {
+    max-width: calc(100vw*(288/320));
+  }
+}
+
+
+@media screen and (max-width: 680px) {
   .footer {
     margin: 64px 0 24px 16px;
     flex-direction: column;

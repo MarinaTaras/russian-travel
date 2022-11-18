@@ -9,6 +9,11 @@
 @media screen and (max-width: 1020px){
   .place__paragraphs {
     gap: 25px;
+  }
+}
+
+@media screen and (max-width: 760px){
+  .place__paragraphs {
     padding: 0 16px 0 16px;
   }
 }

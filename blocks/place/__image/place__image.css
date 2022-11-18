@@ -2,10 +2,8 @@
   max-width: 460px;
   grid-row: 2/3;
   grid-column: 1;
-  object-fit: cover;
   padding: 0;
   margin: 0;
-  align-self: center;
 }
 
 @media screen and (max-width: 1200px){
@@ -16,7 +14,7 @@
 
 @media screen and (max-width: 1020px){
   .place__image {
-    max-width: calc(100vw*(320/768));
+    max-width: calc(100vw*(340/768));
   }  
 }
 
@@ -24,5 +22,6 @@
   .place__image {
     max-width: 100%;
     overflow: visible;
+    align-self: center;
   }  
 }
